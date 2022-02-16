@@ -1,0 +1,25 @@
+{
+  "name": "@daysnap/define-sass",
+  "version": "0.0.1",
+  "description": "sass define",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daysnap/daysnap-define-sass.git"
+  },
+  "keywords": [],
+  "files": [
+    "config.scss",
+    "define.scss",
+    "function.scss",
+    "mixins.scss"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daysnap/daysnap-define-sass/issues"
+  },
+  "homepage": "https://github.com/daysnap/daysnap-define-sass#readme"
+}
