@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "sass define",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
   },
   "repository": {
     "type": "git",

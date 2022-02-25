@@ -17,4 +17,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: I
+      - name: Publish to NPM
+        run: npm publish || true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

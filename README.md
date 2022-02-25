@@ -3,7 +3,9 @@
 
 > sass 样式变量、工具库
 
-## 安装
+## 使用
+
+1. 安装
 
 ```shell
 npm install @daysnap/define-sass
@@ -33,10 +35,4 @@ npm install
 
 ```shell
 npm run prepare
-```
-
-4. 配置环境
-
-```shell
-echo 'export PATH="/usr/local/bin/:$PATH"' >> ~/.huskyrc
 ```
