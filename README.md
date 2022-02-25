@@ -29,4 +29,14 @@ git clone git@github.com:daysnap/daysnap-define-sass.git
 npm install
 ```
 
-3. 
+3. 执行 husky 安装
+
+```shell
+npm run prepare
+```
+
+4. 配置环境
+
+```shell
+echo 'export PATH="/usr/local/bin/:$PATH"' >> ~/.huskyrc
+```
