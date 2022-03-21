@@ -14,7 +14,7 @@ npm install @daysnap/define-sass
 ## 使用
 
 ```scss
-@import "~@daysnap/define-sass/define";
+@import "~@daysnap/define-sass/index";
 ```
 
 ## 开发
