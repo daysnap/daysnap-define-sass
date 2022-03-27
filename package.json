@@ -1,6 +1,6 @@
 {
   "name": "@daysnap/define-sass",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "sass define",
   "scripts": {
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
@@ -16,8 +16,8 @@
     "function.scss",
     "mixins.scss"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "woshiajuana",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/daysnap/daysnap-define-sass/issues"
   },
@@ -32,5 +32,6 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "dependencies": {}
 }
