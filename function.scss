@@ -5,7 +5,7 @@
  -------------------------- */
 @function selectorToString($selector) {
   $selector: inspect($selector);
-  $selector: str-slice($selector, 2, -2);
+  $selector: str-slice($selector, str-length($selector), str-length($selector) * -1);
   @return $selector;
 }
 
