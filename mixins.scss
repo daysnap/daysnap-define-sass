@@ -68,7 +68,6 @@
 /* BEM
  -------------------------- */
 @mixin b($block) {
-  $B: "";
   @if ($namespace != '') {
     $B: $namespace + '-' + $block !global;
   } @else {
