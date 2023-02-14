@@ -1,8 +1,10 @@
 {
   "name": "@daysnap/define-sass",
-  "version": "0.0.9",
+  "version": "0.0.11",
   "description": "sass define",
   "scripts": {
+    "release": "dsc publish -t",
+    "dev": "sass --watch examples/sass/index.scss:examples/css/index.css",
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
   },
   "repository": {
@@ -11,11 +13,9 @@
   },
   "keywords": [],
   "files": [
-    "index.scss",
-    "config.scss",
-    "function.scss",
-    "mixins.scss"
+    "src"
   ],
+  "main": "src/index.scss",
   "author": "woshiajuana",
   "license": "MIT",
   "bugs": {
@@ -27,7 +27,8 @@
     "@commitlint/config-conventional": "^16.2.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "sass": "^1.53.0"
   },
   "publishConfig": {
     "access": "public",

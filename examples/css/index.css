@@ -1,0 +1,24 @@
+/* Placeholder
+ -------------------------- */
+.ds-dropdown {
+  position: absolute;
+}
+
+.ds-dropdown-placement {
+  position: relative;
+}
+.ds-dropdown-placement-topLeft {
+  animation-duration: 0.3s;
+}
+.ds-dropdown-content:before {
+  top: auto;
+  right: auto;
+  bottom: -14px;
+  left: 16px;
+}
+
+.ds-dropdown-placement-topLeft .ds-dropdown-content:before {
+  border-top-color: #202931;
+}
+
+/*# sourceMappingURL=index.css.map */
