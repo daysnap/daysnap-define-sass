@@ -41,3 +41,8 @@
   @return containsModifier($selector) or containWhenFlag($selector) or
     containPseudoClass($selector);
 }
+
+// fix
+@function px($px) {
+  @return $px * 1PX;
+}
