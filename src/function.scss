@@ -46,3 +46,12 @@
 @function px($px) {
   @return $px * 1PX;
 }
+
+// px
+@function j($px) {
+  @if (unitless($px)) {
+    @return $px * 1px;
+  } @else {
+    @return $px;
+  }
+}
