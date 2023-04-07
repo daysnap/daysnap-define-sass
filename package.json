@@ -1,6 +1,6 @@
 {
   "name": "@daysnap/define-sass",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "sass define",
   "scripts": {
     "release": "dsc publish -t",
@@ -17,14 +17,8 @@
   ],
   "main": "src/index.scss",
   "exports": {
-    ".": {
-      "require": "./src/index.scss",
-      "import": "./src/index.scss"
-    },
-    "./reset": {
-      "require": "./src/reset.scss",
-      "import": "./src/reset.scss"
-    },
+    ".": "./src/index.scss",
+    "./reset": "./src/reset.scss",
     "./*": "./*"
   },
   "author": "woshiajuana",
