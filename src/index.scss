@@ -1,11 +1,14 @@
 // bem
-@import "./bem";
+@import "./bem.scss";
 
 // 混合
-@import "./mixins";
+@import "./mixins.scss";
 
 // 占位
-@import "./placeholder";
+@import "./placeholder.scss";
 
 // 一边框
-@import "./hairline";
+@import "./hairline.scss";
+
+// 函数
+@import "./function.scss"
