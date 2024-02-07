@@ -2,8 +2,8 @@
 
 // BEM
 @mixin b($block) {
-  @if ($namespace != '') {
-    $B: $namespace + '-' + $block !global;
+  @if ($namespace != "") {
+    $B: $namespace + "-" + $block !global;
   } @else {
     $B: $namespace + $block !global;
   }
@@ -16,14 +16,14 @@
 @mixin e($element, $is-root: false) {
   $E: $element !global;
   $selector: &;
-  $currentSelector: '';
+  $currentSelector: "";
   @each $unit in $element {
     $currentSelector: #{$currentSelector +
-      '.' +
+      "." +
       $B +
       $element-separator +
       $unit +
-      ','};
+      ","};
   }
 
   @if $is-root {
@@ -45,13 +45,13 @@
 
 @mixin m($modifier) {
   $selector: &;
-  $currentSelector: '';
+  $currentSelector: "";
   @each $unit in $modifier {
     $currentSelector: #{$currentSelector +
       $selector +
       $modifier-separator +
       $unit +
-      ','};
+      ","};
   }
 
   @at-root {

@@ -14,17 +14,17 @@
 }
 
 .slide-plus-left-leave-active,
-.slide-plus-right-enter-active{
+.slide-plus-right-enter-active {
   z-index: 1;
 }
 
 .slide-plus-left-enter-active,
-.slide-plus-right-leave-active{
+.slide-plus-right-leave-active {
   z-index: 10;
 }
 
 .slide-plus-left-enter-from,
-.slide-plus-right-leave-to{
+.slide-plus-right-leave-to {
   transform: translateX(100%);
 }
 

@@ -14,21 +14,21 @@
 }
 
 .popup-up-leave-active,
-.popup-down-enter-active{
+.popup-down-enter-active {
   z-index: 1;
 }
 
 .popup-up-enter-active,
-.popup-down-leave-active{
+.popup-down-leave-active {
   z-index: 10;
 }
 
 .popup-up-enter-from,
-.popup-down-leave-to{
+.popup-down-leave-to {
   transform: translateY(100%);
 }
 
 .popup-up-leave-to,
-.popup-down-enter-from{
-  transform: scale(.9);
+.popup-down-enter-from {
+  transform: scale(0.9);
 }

@@ -1,324 +1,322 @@
 // flex
-%df{
+%df {
   display: flex;
 }
 
-%df1{
+%df1 {
   flex: 1;
 }
 
-%dfn{
+%dfn {
   flex: none;
 }
 
-%dfa{
+%dfa {
   flex: auto;
 }
 
-%ais{
+%ais {
   align-items: flex-start;
 }
 
-%aic{
+%aic {
   align-items: center;
 }
 
-%aie{
+%aie {
   align-items: flex-end;
 }
 
-%jcs{
+%jcs {
   justify-content: space-between;
 }
 
-%jcc{
+%jcc {
   justify-content: center;
 }
 
-%jce{
+%jce {
   justify-content: flex-end;
 }
 
-%fdc{
+%fdc {
   flex-direction: column;
 }
 
-%fww{
-  flex-wrap:wrap;
+%fww {
+  flex-wrap: wrap;
 }
 
-%fs0{
+%fs0 {
   flex-shrink: 0;
 }
 
-
-
 // position
-%pa{
+%pa {
   position: absolute;
 }
 
-%pr{
+%pr {
   position: relative;
 }
 
-%pf{
+%pf {
   position: fixed;
 }
 
-%ps{
+%ps {
   position: sticky;
 }
 
-%l0{
+%l0 {
   left: 0;
 }
 
-%r0{
+%r0 {
   right: 0;
 }
 
-%b0{
+%b0 {
   bottom: 0;
 }
 
-%t0{
+%t0 {
   top: 0;
 }
 
-%w100{
+%w100 {
   width: 100%;
 }
 
-%h100{
+%h100 {
   height: 100%;
 }
 
-%t50{
+%t50 {
   top: 50%;
 }
 
-%l50{
+%l50 {
   left: 50%;
 }
 
-%oya{
+%oya {
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
 
-%wan{
+%wan {
   -webkit-appearance: none;
 }
 
-%ost{
+%ost {
   -webkit-overflow-scrolling: touch;
 }
 
-%lh1{
+%lh1 {
   line-height: 1;
 }
 
-%bsb{
+%bsb {
   box-sizing: border-box;
 }
 
-%pen{
+%pen {
   pointer-events: none;
 }
 
-%thc0{
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+%thc0 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
-%wsn{
+%wsn {
   white-space: nowrap;
 }
 
-%dif{
+%dif {
   display: inline-flex;
 }
 
-%dib{
-  display:inline-block;
+%dib {
+  display: inline-block;
 }
 
-%db{
-  display:block;
+%db {
+  display: block;
 }
 
-%dn{
-  display:none;
+%dn {
+  display: none;
 }
 
-%of{
-  overflow:hidden;
-  zoom:1;
+%of {
+  overflow: hidden;
+  zoom: 1;
 }
 
-%vam{
+%vam {
   vertical-align: middle;
 }
 
-%bn{
+%bn {
   border: none 0;
 }
 
-%fnone{
-  line-height:800px;
+%fnone {
+  line-height: 800px;
   @extend %oh;
 }
 
-%tint{
-  text-indent:-999em;
+%tint {
+  text-indent: -999em;
   @extend %oh;
 }
 
-%clearfix{
-  zoom:1;
+%clearfix {
+  zoom: 1;
 }
 
-%clearfix:after{
-  content:'\20';
-  display:block;
-  height:0;
-  clear:both;
+%clearfix:after {
+  content: "\20";
+  display: block;
+  height: 0;
+  clear: both;
 }
 
-%fl{
-  float:left;
+%fl {
+  float: left;
 }
 
-%fr{
-  float:right;
+%fr {
+  float: right;
 }
 
-%ma{
-  margin:0 auto;
+%ma {
+  margin: 0 auto;
 }
 
-%oh{
-  overflow:hidden;
+%oh {
+  overflow: hidden;
 }
 
-%tac{
-  text-align:center;
+%tac {
+  text-align: center;
 }
 
-%tar{
-  text-align:right;
+%tar {
+  text-align: right;
 }
 
-%fwb{
-  font-weight:bold;
+%fwb {
+  font-weight: bold;
 }
 
-%fwn{
-  font-weight:normal;
+%fwn {
+  font-weight: normal;
 }
 
-%cp{
-  cursor:pointer;
+%cp {
+  cursor: pointer;
 }
 
-%ao8{
-  &:active{
-    opacity: .8;
+%ao8 {
+  &:active {
+    opacity: 0.8;
   }
 }
 
-%usn{
+%usn {
   user-select: none;
 }
 
-%tdn{
-  text-decoration:none
+%tdn {
+  text-decoration: none;
 }
 
-%tdu{
-  text-decoration:underline;
+%tdu {
+  text-decoration: underline;
 }
 
-%f12{
-  font-size:12px;
+%f12 {
+  font-size: 12px;
 }
 
-%f14{
-  font-size:14px;
+%f14 {
+  font-size: 14px;
 }
 
-%f16{
-  font-size:16px;
+%f16 {
+  font-size: 16px;
 }
 
-%f18{
-  font-size:18px;
+%f18 {
+  font-size: 18px;
 }
 
-%f20{
-  font-size:20px;
+%f20 {
+  font-size: 20px;
 }
 
-%f22{
-  font-size:22px;
+%f22 {
+  font-size: 22px;
 }
 
-%cfff{
-  color:#fff;
+%cfff {
+  color: #fff;
 }
 
-%c3{
-  color:#333;
+%c3 {
+  color: #333;
 }
 
-%cc{
-  color:#ccc;
+%cc {
+  color: #ccc;
 }
 
-%c6{
-  color:#666;
+%c6 {
+  color: #666;
 }
 
-%c9{
-  color:#999;
+%c9 {
+  color: #999;
 }
 
-%on{
+%on {
   outline: none;
 }
 
-%m0{
+%m0 {
   margin: 0;
 }
 
-%p0{
+%p0 {
   padding: 0;
 }
 
-%bfff{
-  background:#fff;
+%bfff {
+  background: #fff;
 }
 
-%twno{
+%twno {
   @extend %oh;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-%br50{
+%br50 {
   border-radius: 50%;
 }
 
-%dan{
-  &:after{
+%dan {
+  &:after {
     @extend %dn;
   }
 }
 
-%dbn{
-  &:before{
+%dbn {
+  &:before {
     @extend %dn;
   }
 }

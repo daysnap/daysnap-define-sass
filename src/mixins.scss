@@ -2,18 +2,17 @@
  -------------------------- */
 @mixin placeholder {
   &::-webkit-input-placeholder {
-    @content
+    @content;
   }
 
   &::-moz-placeholder {
-    @content
+    @content;
   }
 
   &:-ms-input-placeholder {
-    @content
+    @content;
   }
 }
-
 
 // dark
 @mixin dark($block) {
@@ -25,47 +24,46 @@
 }
 
 // 多行省略
-@mixin twno($n){
+@mixin twno($n) {
   word-break: break-all;
-  overflow : hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: $n;
   -webkit-box-orient: vertical;
 }
 
-
-@mixin bbr($px){
-  &:before{
+@mixin bbr($px) {
+  &:before {
     border-radius: $px;
   }
 }
 
-@mixin abr($px){
-  &:before{
+@mixin abr($px) {
+  &:before {
     border-radius: $px;
   }
 }
 
-@mixin rounded($radius){
+@mixin rounded($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
 
-@mixin rounded($radius){
+@mixin rounded($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
 
-@mixin br($radius){
+@mixin br($radius) {
   -webkit-border-radius: $radius;
   -moz-border-radius: $radius;
   border-radius: $radius;
 }
 
-@mixin tfr($rotate){
+@mixin tfr($rotate) {
   -webkit-transform: rotate($rotate);
   -moz-transform: rotate($rotate);
   -ms-transform: rotate($rotate);
@@ -73,7 +71,7 @@
   transform: rotate($rotate);
 }
 
-@mixin tft($translate3d){
+@mixin tft($translate3d) {
   -webkit-transform: $translate3d;
   -moz-transform: $translate3d;
   -ms-transform: $translate3d;
@@ -89,24 +87,23 @@
   transform-origin: $x $y;
 }
 
-@mixin tst($sty,$time){
+@mixin tst($sty, $time) {
   -webkit-transition: $sty $time;
   -moz-transition: $sty $time;
   -o-transition: $sty $time;
   transition: $sty $time;
 }
 
-@mixin tst2($sty,$time,$sty2,$time2){
+@mixin tst2($sty, $time, $sty2, $time2) {
   -webkit-transition: $sty $time, $sty2 $time2;
   -moz-transition: $sty $time, $sty2 $time2;
   -o-transition: $sty $time, $sty2 $time2;
   transition: $sty $time, $sty2 $time2;
 }
 
-@mixin bosh($x,$y,$m,$n,$rgba){
+@mixin bosh($x, $y, $m, $n, $rgba) {
   -webkit-box-shadow: $x $y $m $n $rgba;
   -moz-box-shadow: $x $y $m $n $rgba;
   -o-box-shadow: $x $y $m $n $rgba;
   box-shadow: $x $y $m $n $rgba;
 }
-
