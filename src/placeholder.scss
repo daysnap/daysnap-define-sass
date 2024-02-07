@@ -322,3 +322,8 @@
     @extend %dn;
   }
 }
+
+%ofc {
+  object-fit: cover;
+  object-position: center;
+}
