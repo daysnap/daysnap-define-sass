@@ -1,17 +1,17 @@
 // bem
-@import "./bem.scss";
+@use "./bem.scss" as *;
 
 // 混合
-@import "./mixins.scss";
+@use "./mixins.scss" as *;
 
 // 占位
-@import "./placeholder.scss";
+@use "./placeholder.scss" as *;
 
 // 一边框
-@import "./hairline.scss";
+@use "./hairline.scss" as *;
 
 // 函数
-@import "./function.scss";
+@use "./function.scss" as *;
 
 // 媒体查询
-@import "./media.scss";
+@use "./media.scss" as *;

@@ -1,4 +1,4 @@
-@import "./config";
+@use "./config" as *;
 
 // BEM support Func
 @function selectorToString($selector) {
