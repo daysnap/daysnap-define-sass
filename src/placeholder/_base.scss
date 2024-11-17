@@ -1,0 +1,25 @@
+%df {
+  display: flex;
+}
+
+%f1 {
+  flex: 1;
+}
+
+%fn {
+  flex: none;
+}
+
+%fa {
+  flex: auto;
+}
+
+%df1 {
+  @warn 'deprecated: %df1';
+  flex: 1;
+}
+
+// @deprecated
+%dfn {
+  flex: none;
+}
