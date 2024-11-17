@@ -1,0 +1,9 @@
+// @use "../../src/placeholder.scss" as *;
+@import '../../src/placeholder.scss';
+
+.box{
+  @extend %df1;
+  @extend %df;
+  background-color: red;
+  background-color: red;
+}

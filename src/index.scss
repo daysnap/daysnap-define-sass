@@ -1,0 +1,13 @@
+@use './placeholder.scss';
+
+.box{
+  // @extend %df1;
+  @extend %df;
+  @extend %df;
+  @extend %df;
+  @extend %df;
+  @extend %df;
+  @extend %df;
+  // color: #000;
+  // width: placeholder.$w;
+}

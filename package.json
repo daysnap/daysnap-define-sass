@@ -4,8 +4,8 @@
   "description": "sass define",
   "scripts": {
     "release": "dsc publish -t",
-    "sass": "sass --watch examples/sass/index.scss:examples/css/index.css",
-    "serve": "live-server --no-browser --open=./examples --port=12580",
+    "sass": "sass --no-source-map --watch example/sass/index.scss:example/css/index.css ",
+    "serve": "live-server --no-browser --open=./example --port=12580",
     "dev": "run-p sass serve",
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
   },
@@ -38,7 +38,7 @@
     "husky": "^7.0.4",
     "live-server": "^1.2.2",
     "npm-run-all2": "^7.0.1",
-    "sass": "^1.81.0"
+    "sass": "1.21.0"
   },
   "publishConfig": {
     "access": "public",
