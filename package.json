@@ -4,7 +4,9 @@
   "description": "sass define",
   "scripts": {
     "release": "dsc publish -t",
-    "dev": "sass --watch examples/sass/index.scss:examples/css/index.css",
+    "sass": "sass --watch examples/sass/index.scss:examples/css/index.css",
+    "serve": "live-server --no-browser --open=./examples --port=12580",
+    "dev": "run-p sass serve",
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
   },
   "repository": {
@@ -34,11 +36,12 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
+    "live-server": "^1.2.2",
+    "npm-run-all2": "^7.0.1",
     "sass": "^1.81.0"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },
-  "dependencies": {}
+  }
 }
