@@ -4,7 +4,7 @@
   "description": "sass define",
   "scripts": {
     "release": "dsc publish -t",
-    "sass": "sass --no-source-map --watch example/sass/index.scss:example/css/index.css ",
+    "sass": "sass --no-source-map --watch example/sass:example/css src:example/temp",
     "serve": "live-server --no-browser --open=./example --port=12580",
     "dev": "run-p sass serve",
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
