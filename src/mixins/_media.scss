@@ -1,7 +1,7 @@
 @use "sass:map";
 @use "sass:string";
 
-@use "../function/unit" as *;
+@use "../function/base" as *;
 
 $sm: 640px !default;
 $md: 768px !default;
@@ -42,7 +42,7 @@ $xxl: 1536px !default;
 }
 
 @mixin xs() {
-  @include max-width-screen(#{$sm - 1}) {
+  @include max-width-screen($sm - 1) {
     @content;
   }
 }

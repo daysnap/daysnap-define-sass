@@ -1,9 +1,0 @@
-@use "sass:math";
-
-@function unit($val) {
-  @if (math.is-unitless($val)) {
-    @return #{$val}px;
-  } @else {
-    @return $val;
-  }
-}

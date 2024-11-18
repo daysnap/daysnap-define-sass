@@ -1,7 +1,4 @@
-@use "sass:string";
 @use "../../src/index.scss" as *;
-
-@debug string.insert("Roboto Bold", " Mono", 7);
 
 .xx {
   @include xs {
@@ -9,8 +6,19 @@
   }
 }
 
-@include screen(100px) {
+@include xs {
   .box {
     height: 100px;
   }
+  .xx {
+    @include transparent;
+  }
+}
+
+.xx {
+  @extend %f1;
+  @extend %df;
+  @extend %aic;
+  @extend %jcc;
+  @extend %transparent;
 }

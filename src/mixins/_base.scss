@@ -1,0 +1,30 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &::-moz-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}
+
+// 多行省略
+@mixin twno($n: 1) {
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $n;
+  -webkit-box-orient: vertical;
+}
+
+// 透明背景
+@mixin transparent {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAgMAAABinRfyAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAlQTFRFyMjI////1tbWF77ztQAAABZJREFUeJxjYGAIDWUggggNbWAgggAA918Ooanz2WEAAAAASUVORK5CYII=)
+    center !important;
+  background-size: j(8) !important;
+}

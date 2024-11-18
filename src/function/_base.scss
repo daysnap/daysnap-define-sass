@@ -1,0 +1,22 @@
+@use "sass:math";
+
+@function unit($val) {
+  @if (math.is-unitless($val)) {
+    @return #{$val}px;
+  } @else {
+    @return $val;
+  }
+}
+
+@function j($px) {
+  @if (math.is-unitless($px)) {
+    @return #{$px}px;
+  } @else {
+    @return $px;
+  }
+}
+
+// fix
+@function px($px) {
+  @return #{$px}px;
+}
