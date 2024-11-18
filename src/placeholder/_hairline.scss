@@ -1,3 +1,5 @@
+@use "./base";
+
 %bw05 {
   @extend %pr;
   &:after {

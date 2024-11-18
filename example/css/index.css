@@ -7,9 +7,15 @@
 }
 
 .x {
-  overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.x {
+  overflow: hidden;
+}
+
+.x {
+  text-overflow: ellipsis;
 }
 
 .box {

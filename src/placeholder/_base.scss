@@ -76,16 +76,32 @@
   left: 0;
 }
 
+%l100 {
+  left: 100%;
+}
+
 %r0 {
   right: 0;
+}
+
+%r100 {
+  right: 100%;
 }
 
 %b0 {
   bottom: 0;
 }
 
+%b100 {
+  bottom: 100%;
+}
+
 %t0 {
   top: 0;
+}
+
+%t100 {
+  top: 100%;
 }
 
 %w100 {
@@ -161,10 +177,6 @@
   float: right;
 }
 
-%ma {
-  margin: 0 auto;
-}
-
 %oh {
   overflow: hidden;
 }
@@ -233,6 +245,26 @@
   margin: 0;
 }
 
+%ma {
+  margin: 0 auto;
+}
+
+%mla {
+  margin-left: auto;
+}
+
+%mra {
+  margin-right: auto;
+}
+
+%mta {
+  margin-top: auto;
+}
+
+%mba {
+  margin-bottom: auto;
+}
+
 %p0 {
   padding: 0;
 }
@@ -247,4 +279,8 @@
 
 %bn {
   border: none 0;
+}
+
+%toe {
+  text-overflow: ellipsis;
 }
