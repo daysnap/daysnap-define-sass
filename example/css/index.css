@@ -8,9 +8,6 @@
 
 .x {
   overflow: hidden;
-}
-
-.x {
   text-overflow: ellipsis;
   white-space: nowrap;
 }

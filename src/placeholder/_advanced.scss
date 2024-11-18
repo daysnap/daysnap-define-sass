@@ -1,5 +1,3 @@
-@use "./base";
-
 %clearfix {
   zoom: 1;
   &::after {
@@ -17,8 +15,7 @@
 }
 
 %twno {
-  @extend %oh;
-  // overflow: hidden;
+  overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
