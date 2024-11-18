@@ -1,3 +1,4 @@
+// flex
 %df {
   display: flex;
 }
@@ -14,12 +15,236 @@
   flex: auto;
 }
 
-%df1 {
-  @warn 'deprecated: %df1';
-  flex: 1;
+%fc {
+  flex: content;
 }
 
-// @deprecated
-%dfn {
-  flex: none;
+%aifs {
+  align-items: flex-start;
+}
+
+%aic {
+  align-items: center;
+}
+
+%aife {
+  align-items: flex-end;
+}
+
+%jcsb {
+  justify-content: space-between;
+}
+
+%jcc {
+  justify-content: center;
+}
+
+%jcfe {
+  justify-content: flex-end;
+}
+
+%fdc {
+  flex-direction: column;
+}
+
+%fww {
+  flex-wrap: wrap;
+}
+
+%fs0 {
+  flex-shrink: 0;
+}
+
+// position
+%pa {
+  position: absolute;
+}
+
+%pr {
+  position: relative;
+}
+
+%pf {
+  position: fixed;
+}
+
+%ps {
+  position: sticky;
+}
+
+%l0 {
+  left: 0;
+}
+
+%r0 {
+  right: 0;
+}
+
+%b0 {
+  bottom: 0;
+}
+
+%t0 {
+  top: 0;
+}
+
+%w100 {
+  width: 100%;
+}
+
+%h100 {
+  height: 100%;
+}
+
+%t50 {
+  top: 50%;
+}
+
+%l50 {
+  left: 50%;
+}
+
+%ost {
+  -webkit-overflow-scrolling: touch;
+}
+
+%lh1 {
+  line-height: 1;
+}
+
+%wan {
+  -webkit-appearance: none;
+}
+
+%bsb {
+  box-sizing: border-box;
+}
+
+%pen {
+  pointer-events: none;
+}
+
+%thc0 {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+%wsn {
+  white-space: nowrap;
+}
+
+%dif {
+  display: inline-flex;
+}
+
+%dib {
+  display: inline-block;
+}
+
+%db {
+  display: block;
+}
+
+%dn {
+  display: none;
+}
+
+%vam {
+  vertical-align: middle;
+}
+
+%fl {
+  float: left;
+}
+
+%fr {
+  float: right;
+}
+
+%ma {
+  margin: 0 auto;
+}
+
+%oh {
+  overflow: hidden;
+}
+
+%tac {
+  text-align: center;
+}
+
+%tar {
+  text-align: right;
+}
+
+%tal {
+  text-align: left;
+}
+
+%fwb {
+  font-weight: bold;
+}
+
+%fwn {
+  font-weight: normal;
+}
+
+%cp {
+  cursor: pointer;
+}
+
+%usn {
+  user-select: none;
+}
+
+%tdn {
+  text-decoration: none;
+}
+
+%tdu {
+  text-decoration: underline;
+}
+
+%cfff {
+  color: #fff;
+}
+
+%c3 {
+  color: #333;
+}
+
+%cc {
+  color: #ccc;
+}
+
+%c6 {
+  color: #666;
+}
+
+%c9 {
+  color: #999;
+}
+
+%on {
+  outline: none;
+}
+
+%m0 {
+  margin: 0;
+}
+
+%p0 {
+  padding: 0;
+}
+
+%bfff {
+  background: #fff;
+}
+
+%br50 {
+  border-radius: 50%;
+}
+
+%bn {
+  border: none 0;
 }

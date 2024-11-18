@@ -1,8 +1,17 @@
 @use "../../src/index.scss" as *;
+@use "../../src/index.scss" as *;
 
 .box {
-  @extend %df1;
+  @extend %f1;
   @extend %df;
   background-color: red;
-  background-color: red;
+}
+
+.x {
+  @extend %f1;
+  @extend %twno;
+}
+
+.xxx {
+  @extend %f1;
 }

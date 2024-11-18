@@ -1,0 +1,47 @@
+@use "./base";
+
+%clearfix {
+  zoom: 1;
+  &::after {
+    content: "\20";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+%ao8 {
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+%twno {
+  @extend %oh;
+  // overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+%dan {
+  &:after {
+    display: none;
+  }
+}
+
+%dbn {
+  &:before {
+    display: none;
+  }
+}
+
+%ofc {
+  object-fit: cover;
+  object-position: center;
+}
+
+%oya {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}

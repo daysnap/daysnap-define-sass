@@ -2,11 +2,19 @@
   display: flex;
 }
 
-.box {
+.box, .x, .xxx {
   flex: 1;
 }
 
+.x {
+  overflow: hidden;
+}
+
+.x {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .box {
-  background-color: red;
   background-color: red;
 }
