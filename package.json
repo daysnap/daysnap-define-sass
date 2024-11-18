@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/daysnap/daysnap-define-sass.git"
   },
-  "keywords": [],
+  "keywords": [
+    "daysnap",
+    "define",
+    "sass",
+    "scss"
+  ],
   "files": [
     "src"
   ],
