@@ -1,4 +1,4 @@
-@use "./base";
+@use "./base" as *;
 
 %bw05 {
   @extend %pr;

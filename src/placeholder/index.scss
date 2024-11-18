@@ -1,5 +1,5 @@
-@use "./base";
-@use "./advanced";
-@use "./deprecated";
-@use "./extra";
-@use "./hairline";
+@use "./base" as *;
+@use "./advanced" as *;
+@use "./deprecated" as *;
+@use "./extra" as *;
+@use "./hairline" as *;

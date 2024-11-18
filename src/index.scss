@@ -1,1 +1,3 @@
-@use "./placeholder/index.scss";
+@forward "./mixins/index.scss";
+
+@use "./placeholder/index.scss" as *;

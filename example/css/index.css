@@ -2,22 +2,15 @@
   display: flex;
 }
 
-.box, .x, .xxx {
-  flex: 1;
-}
-
-.x {
-  white-space: nowrap;
-}
-
-.x {
-  overflow: hidden;
-}
-
-.x {
-  text-overflow: ellipsis;
+.Roboto Bold {
+  color: #000;
 }
 
 .box {
   background-color: red;
+}
+@media only screen and (max-width: 639px) {
+  .box {
+    height: 100px;
+  }
 }

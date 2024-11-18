@@ -1,16 +1,17 @@
+@use "sass:string";
 @use "../../src/index.scss" as *;
 
+@debug string.insert("Roboto Bold", " Mono", 7);
+
+.#{string.quote("Roboto Bold")} {
+  color: #000;
+}
+
 .box {
-  @extend %f1;
   @extend %df;
   background-color: red;
-}
 
-.x {
-  @extend %f1;
-  @extend %twno;
-}
-
-.xxx {
-  @extend %f1;
+  @include res("xs") {
+    height: 100px;
+  }
 }
