@@ -1,3 +1,8 @@
+// 函数
+@forward "./function/index.scss";
+
+// 混合
 @forward "./mixins/index.scss";
 
+// 占位符
 @use "./placeholder/index.scss" as *;

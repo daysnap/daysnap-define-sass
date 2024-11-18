@@ -1,16 +1,20 @@
-.box {
-  display: flex;
-}
+/* Error: $number: 639px is not a number.
+ *   ,
+ * 4 |   @if (math.is-unitless($val)) {
+ *   |        ^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   src/function/_unit.scss 4:8   unit()
+ *   src/mixins/_media.scss 33:33  max-width-screen()
+ *   src/mixins/_media.scss 45:3   xs()
+ *   example/sass/index.scss 7:3   root stylesheet */
 
-.Roboto Bold {
-  color: #000;
-}
-
-.box {
-  background-color: red;
-}
-@media only screen and (max-width: 639px) {
-  .box {
-    height: 100px;
-  }
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $number: 639px is not a number.\a   \2577 \a 4 \2502    @if (math.is-unitless($val)) {\a   \2502         ^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   src/function/_unit.scss 4:8   unit()\a   src/mixins/_media.scss 33:33  max-width-screen()\a   src/mixins/_media.scss 45:3   xs()\a   example/sass/index.scss 7:3   root stylesheet";
 }

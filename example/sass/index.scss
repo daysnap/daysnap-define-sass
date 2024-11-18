@@ -3,15 +3,14 @@
 
 @debug string.insert("Roboto Bold", " Mono", 7);
 
-.#{string.quote("Roboto Bold")} {
-  color: #000;
+.xx {
+  @include xs {
+    color: red;
+  }
 }
 
-.box {
-  @extend %df;
-  background-color: red;
-
-  @include res("xs") {
+@include screen(100px) {
+  .box {
     height: 100px;
   }
 }
